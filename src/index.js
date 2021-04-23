@@ -46,8 +46,8 @@ const domRender = (stateArr) => {
     userEl.innerHTML = `<div>
     Name : ${userObj.title} ${userObj.name} 
     <ol>
-      <li>${userObj.gender}</li>
-      <li>${userObj.email}</li> 
+      <li> ${userObj.gender} </li>
+      <li> ${userObj.email} </li> 
     </ol> 
     </div>`;
 
